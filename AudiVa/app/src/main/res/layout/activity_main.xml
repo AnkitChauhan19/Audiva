@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="#040720">
+
+    <!-- App Logo ImageView -->
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/app_logo"
+        android:layout_gravity="center"
+        android:contentDescription="App Logo"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="16dp" />
+
+    <!-- Section for Uploading Audio -->
+    <TextView
+        android:id="@+id/uploadAudioLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_audio_label"
+        android:textSize="18sp"
+        android:paddingTop="24dp"
+        android:paddingBottom="8dp"
+        android:textColor="#CFECEC" />
+
+    <Button
+        android:id="@+id/uploadAudioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_audio_button" />
+
+    <!-- Real-time Detection Toggle -->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/realtimeDetectionSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/realtime_detection_toggle"
+        android:paddingTop="16dp"
+        android:textColor="#FFFFFF" />
+
+    <!-- Recent Analysis Section -->
+    <TextView
+        android:id="@+id/recentAnalysisLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recent_analysis_label"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:textColor="#CFECEC" />
+
+    <!-- List View for Recent Analysis -->
+    <ListView
+        android:id="@+id/recentAnalysisList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF" />
+</LinearLayout>
+

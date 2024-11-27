@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AudiVa</string>
+        <string name="upload_audio_label">Upload Audio for Analysis</string>
+        <string name="upload_logo_button">Upload App Logo</string>
+        <string name="upload_audio_button">Upload Audio</string>
+        <string name="realtime_detection_toggle">Enable Real-time Detection</string>
+        <string name="recent_analysis_label">Recent Analysis</string>
+        <string name="app_logo_label">App Logo</string>
+</resources>
